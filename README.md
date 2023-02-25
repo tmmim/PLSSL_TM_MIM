@@ -42,7 +42,7 @@ After pretaining, we obtain the pretrained model in: `./work_dirs/selfsup/tmmim/
 cd {your_mmdet_dir}
 ```
 
-- Using **ImageNet-1K** pretrained model
+### Using `ImageNet-1K` pretrained model
 
 1. Modify the backbone initialization in the Faster RCNN config file: `configs/faster_rcnn_convnext-t_fpn.py`
 ```
@@ -66,7 +66,7 @@ bash tools/dist_test.sh \
     --eval bbox \
 ```
 
-- Using **TM-MIM** pretrained model
+### Using `TM-MIM` pretrained model
 1. Modify the backbone initialization in the Faster RCNN config file: `configs/faster_rcnn_convnext-t_fpn.py`
 ```
 init_cfg = dict(type='Pretrained', checkpoint={tmmim_pretrained_model_path}, prefix='backbone.')
