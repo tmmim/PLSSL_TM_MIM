@@ -1,5 +1,9 @@
 # PLSSL_TM_MIM
-This repo is the implementation of the under review paper.
+This repo is the implementation of the under review paper. Released pretrained models are available as follows:
+- [convnext-t_in1k.pth](https://github.com/tmmim/PLSSL_TM_MIM/releases/download/v1.0/convnext-t_in1k.pth)
+- [convnext-t_tmmim.pth](https://github.com/tmmim/PLSSL_TM_MIM/releases/download/v1.0/convnext-t_tmmim.pth)
+- [resnet-50_in1k.pth](https://github.com/tmmim/PLSSL_TM_MIM/releases/download/v1.0/resnet50_in1k.pth)
+- [resnet-50_tmmim.pth](https://github.com/tmmim/PLSSL_TM_MIM/releases/download/v1.0/resnet-50_tmmim.pth)
 
 # Installation
 
